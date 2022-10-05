@@ -15,7 +15,7 @@ const Contact = () => {
     const timeOut = setTimeout(() => {
       //
       setAlert({ show: false });
-    }, 3000);
+    }, 5000);
     // Clean up
     return () => {
       clearTimeout(timeOut);

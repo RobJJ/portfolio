@@ -6,7 +6,7 @@ const Focus = () => {
       <div>
         <h2 className="md:mt-2 mt-0 md:mb-0 mb-2 text-center font-infoText">
           I have thoroughly enjoyed this learning process, particularly in
-          learning about the multi-pardigm nature of JavaScript.
+          learning about the multi-paradigm nature of JavaScript.
         </h2>
       </div>
       <div className="flex flex-col md:mt-4 h-full w-full">
@@ -17,7 +17,7 @@ const Focus = () => {
         <p className=" font-infoText text-center">
           Continue to develop a deep understanding of JS. Build SPAs with
           ReactJS. Incorporate interesting libraries into my projects. Start
-          working with NodeJS and build out the functionality of existing
+          working with NodeJS, and build out the functionality of existing
           projects.
         </p>
       </div>

@@ -19,7 +19,7 @@ export const Data = [
 export const projectData = [
   {
     title: "Grocery Helper",
-    desc: "This project was made to help users when shopping. A user can add,edit, and delete items from their shopping list. Users are notified as each action takes place. List is kept in localStorage to preserve state.",
+    desc: "This project was made to help users when shopping. A user can add, edit, and delete items from their shopping list. Users are notified of each action. List is kept in localStorage to preserve state.",
     code: "https://github.com/RobJJ/grocery-helper-react",
     view: "url to view",
   },
@@ -31,20 +31,26 @@ export const projectData = [
   },
   {
     title: "Calculator Expression",
-    desc: "This project was made to allow users to correctly compute an expression, using the four basic operators. The calculator computes the expression using a functional approach, that includes a recursive function to reduce the expression. No global variables were used for state.",
+    desc: "This project was made to allow users to correctly compute an expression, using the four basic operators. A functional approach was used, that includes a recursive function to reduce the expression. No global variables were used for state. Written in 'native' JavaScript.",
     code: "https://github.com/RobJJ/Calculator-expression",
     view: "url to view",
   },
   {
     title: "Quiz Game",
-    desc: "This project was made to allow a user to complete a quiz. Users can retake the quiz multiple times and compare their answers once completed. The state for each round is maintained and the user is able to go back and change their answers until they are happy.",
+    desc: "This project was made to allow a user to complete a quiz. Users can retake the quiz multiple times and compare their answers once completed. The state for each round is maintained, which allows users to edit answers and only submit when happy. Written in 'native' JavaScript.",
     code: "https://github.com/RobJJ/Quiz-Game",
     view: "url to view",
   },
   {
     title: "Quote Generator",
-    desc: "This project was made to allow a user to generate a random quote. A user can request another quote, or choose to tweet the quote. A spinner us used for users with slow connections.",
+    desc: "This project was made to allow a user to generate a random quote. A user can request another quote, or choose to tweet the quote. Quotes are fetched from an API. A spinner us used for users with slow connections. Written in 'native' JavaScript.",
     code: "https://github.com/RobJJ/Quote-Generator",
+    view: "url to view",
+  },
+  {
+    title: "Personal Website",
+    desc: "This website was made to share and display personal information. This includes basic info, projects, and a contact form. The site was designed and created from scratch, using ReactJS and Tailwind. EmailJS was used to handle the contact form request.",
+    code: "https://github.com/RobJJ/personal-website",
     view: "url to view",
   },
 ];
