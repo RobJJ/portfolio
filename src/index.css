@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+/* --------------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#card-outer {
+  background-color: transparent;
+  perspective: 1000px;
+}
+#card-inner {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+#card-inner-front {
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  /* background-color: #bbb; */
+}
+#card-inner-back {
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  /* background-color: dodgerblue; */
+}
+.active {
+  transform: rotateY(180deg);
+}
