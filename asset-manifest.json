@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35ac011a.css",
+    "main.js": "/static/js/main.e346ee7a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Profile Pic NoBG.png": "/static/media/Profile Pic NoBG.148cbfce4d4f6fb03256.png",
+    "static/media/woodland.jpg": "/static/media/woodland.ad031d55267eb2fca1a0.jpg",
+    "index.html": "/index.html",
+    "main.35ac011a.css.map": "/static/css/main.35ac011a.css.map",
+    "main.e346ee7a.js.map": "/static/js/main.e346ee7a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35ac011a.css",
+    "static/js/main.e346ee7a.js"
+  ]
+}
