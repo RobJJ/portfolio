@@ -10,7 +10,7 @@ const Github = ({ url }) => {
   return (
     <button
       type="button"
-      className="text-gray-700 bg-[#82B7DC] hover:hover:text-white  rounded-full text-sm font-bold px-4 py-2.5 text-center inline-flex items-center m-2 "
+      className="text-gray-700 bg-[#82B7DC] hover:hover:text-white  rounded-full text-sm font-bold px-4 py-2.5 text-center inline-flex items-center m-2"
       onClick={() => handleGithubRequest(url)}
     >
       <svg

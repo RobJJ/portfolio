@@ -2,7 +2,7 @@ import React from "react";
 //
 const Focus = () => {
   return (
-    <article className="h-full w-full p-2 flex flex-col  text-base border-[#82B7DC] border-4 ">
+    <article className="h-full w-full p-2 flex flex-col  text-base border-[#82B7DC] border-4 phone:overflow-auto">
       <div>
         <h2 className="md:mt-2 mt-0 md:mb-0 mb-2 text-center font-infoText">
           I have thoroughly enjoyed this learning process, particularly in

@@ -54,15 +54,15 @@ function App() {
         onMouseOver={handleHover}
       >
         <div
-          className="my-0 mx-auto max-w-xs h-56 bg-slate-800 flex justify-center items-center"
+          className="my-0 mx-auto max-w-xs h-56 phone:h-40 bg-slate-800 flex justify-center items-center"
           data-tag="default"
         >
           <div
-            className="rounded-full bg-[#82B7DC] h-32 w-32 flex justify-center items-center border-white border-4 "
+            className="rounded-full bg-[#82B7DC] h-32 w-32 phone:h-24 phone:w-24 flex justify-center items-center border-white border-4 "
             data-tag="default"
           >
             <div
-              className="font-logoFont italic text-5xl underline"
+              className="font-logoFont italic text-5xl phone:text-3xl underline"
               data-tag="default"
             >
               RJ
@@ -72,11 +72,11 @@ function App() {
       </section>
 
       {/* NAVBAR SECTION */}
-      <nav className="bg-slate-800 mb-4 pt-5 pb-5">
-        <div className="bg-slate-800 my-0 mx-auto max-w-2xl h-auto flex justify-around items-center text-lg text-black ">
+      <nav className="bg-slate-800 mb-4 pt-5 phone:pt-0 pb-5 phone:mb-2">
+        <div className="bg-slate-800 my-0 mx-auto max-w-2xl h-auto flex justify-around items-center text-lg phone:text-base phone:gap-3 text-black ">
           <button
             type="button"
-            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] hover:text-white"
+            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] phone:w-64 phone:p-2 hover:text-white"
             data-tag="about"
             onClick={handleClick}
             // onMouseOut={handleHoverOut}
@@ -85,7 +85,7 @@ function App() {
           </button>
           <button
             type="button"
-            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] hover:text-white"
+            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] phone:w-64 phone:p-2 hover:text-white"
             data-tag="projects"
             onClick={handleClick}
           >
@@ -93,7 +93,7 @@ function App() {
           </button>
           <button
             type="button"
-            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] hover:text-white"
+            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] phone:w-64 phone:p-2 hover:text-white"
             data-tag="resume"
             onClick={handleClick}
           >
@@ -104,7 +104,7 @@ function App() {
 
       {/* DISPLAY SECTION */}
       <section className="bg-slate-800 ">
-        <div className=" my-0 mx-auto max-w-2xl h-80 relative overflow-hidden border-t-8 border-white">
+        <div className=" my-0 mx-auto max-w-2xl h-80  relative overflow-hidden border-t-8 border-white">
           {/* TOP LEVEL PAGE DISPLAY */}
           <div
             className={`bg-slate-800 h-full w-full  absolute transition-transform ease-linear duration-300 ${

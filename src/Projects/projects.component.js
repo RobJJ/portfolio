@@ -26,7 +26,7 @@ const Projects = () => {
   const { title, desc, code, view } = projectData[index];
   //
   return (
-    <section className="h-full w-full flex justify-center items-center text-white">
+    <section className="h-full w-full flex justify-center items-center text-white ">
       {/* LEFT BUTTON */}
       <div className="p-3">
         <button
@@ -39,9 +39,13 @@ const Projects = () => {
       </div>
 
       {/* MAIN PROJECT INFO */}
-      <div className="flex flex-col items-center justify-center text-center">
-        <h2 className="font-bold text-2xl m-2 underline">{title}</h2>
-        <p className="m-2 text-justify">{desc}</p>
+      <div className=" flex flex-col items-center justify-center text-center h-full">
+        <h2 className="font-bold text-2xl m-2 underline phone:text-xl">
+          {title}
+        </h2>
+        <p className="m-2 text-justify phone:overflow-y-auto phone:h-52">
+          {desc}
+        </p>
         <div>
           <Github url={code} />
         </div>
