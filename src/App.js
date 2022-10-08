@@ -65,7 +65,7 @@ function App() {
               className="font-logoFont italic text-5xl phone:text-3xl underline"
               data-tag="default"
             >
-              RJ
+              OO
             </div>
           </div>
         </div>
