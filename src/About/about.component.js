@@ -81,7 +81,10 @@ const About = () => {
               {!clicked ? AboutData[currentPage] : AboutData[previousPage]}
             </div>
             {/* FLIP CARD BACK */}
-            <div id="card-inner-back" className={`absolute h-full w-full`}>
+            <div
+              id="card-inner-back"
+              className={`absolute h-full w-full overflow-hidden flex`}
+            >
               {/*info.title*/}
               {clicked ? AboutData[currentPage] : AboutData[previousPage]}
             </div>
@@ -97,3 +100,4 @@ export default About;
 // hobbies : border-t-4 border-b-4 border-l-4
 // info : border-t-4 border-l-4
 // focus : border-t-4 border-l-4
+// added over-hidden and flex to flip back to test bug
