@@ -9,6 +9,9 @@ import Focus from "../About/focus.component";
 import Hobbies from "../About/hobbies.component";
 import Pics from "../Discarded/pics.component";
 //
+import profileImage from "../Images/Profile Pic NoBG.png";
+//
+//
 export const Data = [
   { title: <Default /> },
   { title: <About /> },
@@ -16,7 +19,6 @@ export const Data = [
   { title: <Contact /> },
 ];
 //
-console.log("DATA component has been rendered");
 
 export const projectData = [
   {
@@ -65,7 +67,7 @@ export const projectData = [
 //
 
 export const AboutData = {
-  profile: <ProfilePic />,
+  profile: <ProfilePic profileImage={profileImage} />,
   info: <Info />,
   focus: <Focus />,
   hobbies: <Hobbies />,
@@ -83,3 +85,4 @@ export const AboutData = {
 //   { src: "../AboutPics/motorbike3.PNG" },
 //   { src: "../AboutPics/motorbike2-1.png" },
 // ];
+//

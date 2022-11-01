@@ -40,21 +40,21 @@ const About = () => {
           <div
             onClick={handleClick}
             data-tag="info"
-            className=" font-alertFont text-xl h-full w-full cursor-pointer  flex justify-center items-center "
+            className=" font-alertFont text-xl h-full w-full cursor-pointer  flex justify-center items-center tracking-wider"
           >
             <span data-tag="info">INFO</span>
           </div>
           <div
             onClick={handleClick}
             data-tag="focus"
-            className=" font-alertFont text-xl h-full w-full  cursor-pointer   flex justify-center items-center"
+            className=" font-alertFont text-xl h-full w-full  cursor-pointer   flex justify-center items-center tracking-wider"
           >
             <span data-tag="focus">FOCUS</span>
           </div>
           <div
             onClick={handleClick}
             data-tag="hobbies"
-            className=" font-alertFont text-xl h-full w-full  cursor-pointer  flex justify-center items-center "
+            className=" font-alertFont text-xl h-full w-full  cursor-pointer  flex justify-center items-center tracking-wider"
           >
             <span data-tag="hobbies">HOBBIES</span>
           </div>

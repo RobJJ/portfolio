@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useState } from "react";
 import { Data } from "./Data/data.component";
 //
@@ -9,8 +8,6 @@ function App() {
   const [indexNow, setIndexNow] = useState(0);
   const [indexThen, setIndexThen] = useState(0);
   const [currentPage, setCurrentPage] = useState("default");
-  //
-  console.log("APP component has been rendered");
   //
   const handleClick = (e) => {
     e.preventDefault();
@@ -76,7 +73,7 @@ function App() {
 
       {/* NAVBAR SECTION */}
       <nav className="bg-slate-800 mb-4 pt-5 phone:pt-0 pb-5 phone:mb-2">
-        <div className="bg-slate-800 my-0 mx-auto max-w-2xl h-auto flex justify-around items-center text-xl phone:text-base phone:gap-3 font-alertFont text-white ">
+        <div className="bg-slate-800 my-0 mx-auto max-w-2xl h-auto flex justify-around items-center text-xl phone:text-lg phone:gap-3 font-alertFont text-white ">
           <button
             type="button"
             className=" bg-slate-800 p-2  w-[110px] phone:w-64 phone:p-2 hover:text-white tracking-wider border-white border-b-2"

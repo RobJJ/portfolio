@@ -41,7 +41,7 @@ const Projects = () => {
 
       {/* MAIN PROJECT INFO */}
       <div className=" flex flex-col items-center justify-center text-center h-full">
-        <h2 className="font-bold text-2xl m-2 underline phone:text-xl font-alertFont tracking-wider">
+        <h2 className="font-bold text-2xl m-2 underline phone:text-xl font-alertFont tracking-wider phone:mt-5">
           {title}
         </h2>
         <p className="m-2 text-justify phone:overflow-y-auto phone:h-52 font-infoText">
