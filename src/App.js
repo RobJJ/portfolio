@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useState } from "react";
 import { Data } from "./Data/data.component";
 //
@@ -8,6 +9,8 @@ function App() {
   const [indexNow, setIndexNow] = useState(0);
   const [indexThen, setIndexThen] = useState(0);
   const [currentPage, setCurrentPage] = useState("default");
+  //
+  console.log("APP component has been rendered");
   //
   const handleClick = (e) => {
     e.preventDefault();
@@ -58,11 +61,11 @@ function App() {
           data-tag="default"
         >
           <div
-            className="rounded-full bg-[#82B7DC] h-32 w-32 phone:h-24 phone:w-24 flex justify-center items-center border-white border-4 "
+            className="rounded-full  bg-[#546279] h-32 w-32 phone:h-24 phone:w-24 flex justify-center items-center border-white border-4 "
             data-tag="default"
           >
             <div
-              className="font-logoFont italic text-5xl phone:text-3xl underline"
+              className="font-logoFont italic text-5xl phone:text-3xl underline text-white"
               data-tag="default"
             >
               RJ
@@ -73,10 +76,10 @@ function App() {
 
       {/* NAVBAR SECTION */}
       <nav className="bg-slate-800 mb-4 pt-5 phone:pt-0 pb-5 phone:mb-2">
-        <div className="bg-slate-800 my-0 mx-auto max-w-2xl h-auto flex justify-around items-center text-lg phone:text-base phone:gap-3 text-black ">
+        <div className="bg-slate-800 my-0 mx-auto max-w-2xl h-auto flex justify-around items-center text-xl phone:text-base phone:gap-3 font-alertFont text-white ">
           <button
             type="button"
-            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] phone:w-64 phone:p-2 hover:text-white"
+            className=" bg-slate-800 p-2  w-[110px] phone:w-64 phone:p-2 hover:text-white tracking-wider border-white border-b-2"
             data-tag="about"
             onClick={handleClick}
             // onMouseOut={handleHoverOut}
@@ -85,7 +88,7 @@ function App() {
           </button>
           <button
             type="button"
-            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] phone:w-64 phone:p-2 hover:text-white"
+            className="bg-slate-800 p-2 border-white border-b-2 w-[110px] phone:w-64 phone:p-2 hover:text-white tracking-wider"
             data-tag="projects"
             onClick={handleClick}
           >
@@ -93,7 +96,7 @@ function App() {
           </button>
           <button
             type="button"
-            className="bg-[#9AA6B1] p-2 rounded-lg w-[110px] phone:w-64 phone:p-2 hover:text-white"
+            className="bg-slate-800 p-2 border-white border-b-2 w-[110px] phone:w-64 phone:p-2 hover:text-white tracking-wider"
             data-tag="resume"
             onClick={handleClick}
           >
@@ -129,3 +132,6 @@ function App() {
 
 export default App;
 //h-screen pt-20
+// old button bg =  bg-[#9AA6B1]
+// old icon bg = bg-[#82B7DC]
+// new accent color - bg-[#546279]

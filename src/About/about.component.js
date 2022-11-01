@@ -6,6 +6,7 @@ import { AboutData } from "../Data/data.component";
 
 const About = () => {
   //
+
   const [clicked, setClicked] = useState(false);
   const innerCardRef = useRef(null);
   //
@@ -39,21 +40,21 @@ const About = () => {
           <div
             onClick={handleClick}
             data-tag="info"
-            className=" font-alertFont text-xl h-full w-full cursor-pointer border-[#82B7DC] flex justify-center items-center "
+            className=" font-alertFont text-xl h-full w-full cursor-pointer  flex justify-center items-center "
           >
             <span data-tag="info">INFO</span>
           </div>
           <div
             onClick={handleClick}
             data-tag="focus"
-            className=" font-alertFont text-xl h-full w-full  cursor-pointer  border-[#82B7DC] flex justify-center items-center"
+            className=" font-alertFont text-xl h-full w-full  cursor-pointer   flex justify-center items-center"
           >
             <span data-tag="focus">FOCUS</span>
           </div>
           <div
             onClick={handleClick}
             data-tag="hobbies"
-            className=" font-alertFont text-xl h-full w-full  cursor-pointer border-[#82B7DC] flex justify-center items-center "
+            className=" font-alertFont text-xl h-full w-full  cursor-pointer  flex justify-center items-center "
           >
             <span data-tag="hobbies">HOBBIES</span>
           </div>

@@ -1,8 +1,5 @@
-// import { useGlobalContext } from "../Context";
-
 const Github = ({ url }) => {
   //
-  //   const { handleGithubRequest } = useGlobalContext();
   const handleGithubRequest = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };

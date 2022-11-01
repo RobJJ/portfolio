@@ -16,6 +16,8 @@ export const Data = [
   { title: <Contact /> },
 ];
 //
+console.log("DATA component has been rendered");
+
 export const projectData = [
   {
     title: "Grocery Helper",
@@ -49,8 +51,14 @@ export const projectData = [
   },
   {
     title: "Personal Website",
-    desc: "This website was made to share and display personal information. This includes basic info, projects, and a contact form. The site was designed and created from scratch, using ReactJS and Tailwind. EmailJS was used to handle the contact form request.",
+    desc: "This website was made to share and display personal information. This includes basic info, projects, and a contact form. The site was designed and created using ReactJS and Tailwind. EmailJS was used to handle the contact form request.",
     code: "https://github.com/RobJJ/personal-website",
+    view: "url to view",
+  },
+  {
+    title: "Client Tracker",
+    desc: "This website was made to help a user keep track of their private clients' information. Each client added to the system has a unique profile that can be managed and updated. React context was used to manage state, and react router for ease of use.",
+    code: "https://github.com/RobJJ/tracker-styles",
     view: "url to view",
   },
 ];

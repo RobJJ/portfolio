@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { projectData } from "../Data/data.component";
 import Github from "../Buttons/github.button.component";
-// import { useGlobalContext } from "./Context";
+//
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const Projects = () => {
   //
+
   const [index, setIndex] = useState(0);
 
   //
@@ -31,7 +32,7 @@ const Projects = () => {
       <div className="p-3">
         <button
           type="button"
-          className="bg-[#82B7DC] hover:text-black text-white font-bold py-2 px-4 rounded-full"
+          className="bg-[#82B7DC] hover:text-white text-gray-700 font-bold py-2 px-4 rounded-full"
           onClick={prevProject}
         >
           <FaChevronLeft />
@@ -40,10 +41,10 @@ const Projects = () => {
 
       {/* MAIN PROJECT INFO */}
       <div className=" flex flex-col items-center justify-center text-center h-full">
-        <h2 className="font-bold text-2xl m-2 underline phone:text-xl">
+        <h2 className="font-bold text-2xl m-2 underline phone:text-xl font-alertFont tracking-wider">
           {title}
         </h2>
-        <p className="m-2 text-justify phone:overflow-y-auto phone:h-52">
+        <p className="m-2 text-justify phone:overflow-y-auto phone:h-52 font-infoText">
           {desc}
         </p>
         <div>
@@ -55,7 +56,7 @@ const Projects = () => {
       <div className="p-3">
         <button
           type="button"
-          className="bg-[#82B7DC] hover:text-black text-white font-bold py-2 px-4 rounded-full"
+          className="bg-[#82B7DC] hover:text-white text-gray-700 font-bold py-2 px-4 rounded-full"
           onClick={nextProject}
         >
           <FaChevronRight />

@@ -14,3 +14,4 @@ const Info = () => {
 };
 
 export default Info;
+// #A7AEBA

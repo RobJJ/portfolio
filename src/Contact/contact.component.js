@@ -5,6 +5,7 @@ import emailjs from "emailjs-com";
 //
 const Contact = () => {
   //
+
   const [alert, setAlert] = useState({
     show: false,
     msg: "",
@@ -52,15 +53,18 @@ const Contact = () => {
       <h2 className="text-center m-2 ">
         {!alert.show && (
           <div>
-            <span className="underline text-lg">
+            <span className="underline text-xl font-alertFont tracking-wider">
               Thanks for checking out my page.
             </span>
-            <br></br> Please leave me a message and your email if interested.
+            <br></br>
+            <span className="font-infoFont text-lg ">
+              Please leave me a message and your email if interested.
+            </span>
           </div>
         )}
         {alert.show && (
           <div>
-            <span className=" font-alertFont text-lg">
+            <span className=" font-alertFont text-lg tracking-wider underline">
               *** MESSAGE SENT ***
             </span>
             <br></br>Thanks for reaching out, I will get back to you shortly...
