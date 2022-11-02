@@ -9,10 +9,10 @@ const Focus = () => {
         </h2>
 
         <p className=" text-center text-lg">
-          Continue to develop a deep understanding of the multi-paradigm nature
-          of JavaScript. Build SPAs with ReactJS. Incorporate interesting
-          libraries into my projects. Start working with backend technologies,
-          and build out the functionality of existing projects.
+          Continue to develop a deep understanding of JS and its multi-paradigm
+          nature. Build SPAs with ReactJS. Incorporate interesting libraries
+          into my projects. Start working with backend technologies, and build
+          out the functionality of existing projects.
         </p>
       </div>
     </article>
