@@ -48,29 +48,22 @@ const Contact = () => {
   // Add back to form onSubmit={sendEmail}
   //
   return (
-    <section className=" w-full h-full flex flex-col items-center justify-center text-white">
+    <section className=" w-full h-full flex flex-col items-center justify-center text-white gap-5">
       {/* INFO */}
-      <h2 className="text-center m-2 ">
+      <div className="text-center">
         {!alert.show && (
           <div>
             <span className="underline text-xl font-alertFont tracking-wider">
-              Thanks for checking out my page.
-            </span>
-            <br></br>
-            <span className="font-infoFont text-lg ">
-              Please leave me a message and your email if interested.
+              Thanks for checking out my page
             </span>
           </div>
         )}
         {alert.show && (
-          <div>
-            <span className=" font-alertFont text-lg tracking-wider underline">
-              *** MESSAGE SENT ***
-            </span>
-            <br></br>Thanks for reaching out, I will get back to you shortly...
+          <div className="text-xl font-alertFont tracking-wider">
+            I will get back to you shortly...
           </div>
         )}
-      </h2>
+      </div>
       {/* MESSAGE */}
       <div className="container">
         <form onSubmit={sendEmail}>
